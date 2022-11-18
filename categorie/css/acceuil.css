@@ -2,8 +2,10 @@
 @import url(composant/dev.css);
 @import url(composant/an.css);
 body{
-    background-color: rgb(160, 161, 199);
-    color: beige;
+    color: rgb(75, 54, 74);
+    background-image: url(../images/fondfleur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     display: flex; justify-content: center;
@@ -36,8 +38,8 @@ header{
     }
     80%{
         transform: translate(-10%);
-        background: rgb(143, 218, 143);
-        color: rgb(188, 206, 171);
+        background: rgb(218, 143, 162);
+        color: rgb(94, 65, 89);
     }
     to{
         transform: translate(0%);
