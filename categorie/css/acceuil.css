@@ -1,0 +1,45 @@
+@import url(composant/ac.css);
+@import url(composant/dev.css);
+@import url(composant/an.css);
+body{
+    background-color: rgb(160, 161, 199);
+    color: beige;
+}
+header{
+    display: flex; justify-content: center;
+    margin-left: 0%;
+    
+}
+.catégorie{
+    font-family: monospace;
+    font-size: 120%;
+    display: flex; justify-content: space-around; 
+
+}
+.IIM{
+    width: 20%;
+    margin-left: -2%;
+    font-size: 0%;
+}
+
+
+header{
+    animation: slideNight 15s infinite;
+}
+@keyframes slideNight{
+    from{
+        transform: translate(0%);
+        background: rgb(189, 145, 166);
+    }
+    30%{
+        transform: translate(10%);
+    }
+    80%{
+        transform: translate(-10%);
+        background: rgb(143, 218, 143);
+        color: rgb(188, 206, 171);
+    }
+    to{
+        transform: translate(0%);
+    }
+}
